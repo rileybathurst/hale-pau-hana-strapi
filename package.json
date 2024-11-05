@@ -1,0 +1,35 @@
+{
+  "name": "hale-pau-hana-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.25.4",
+    "@strapi/plugin-users-permissions": "4.25.4",
+    "@strapi/plugin-i18n": "4.25.4",
+    "@strapi/plugin-cloud": "4.25.4",
+    "better-sqlite3": "11.1.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "6.25.1",
+    "styled-components": "6.1.12"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "80a697e3-a29d-454e-bcec-f7de9892d1b9"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

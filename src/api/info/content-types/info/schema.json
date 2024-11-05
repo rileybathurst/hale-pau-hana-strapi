@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "information",
+  "info": {
+    "singularName": "info",
+    "pluralName": "information",
+    "displayName": "information"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "blocks"
+    }
+  }
+}

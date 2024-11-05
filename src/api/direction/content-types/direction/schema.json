@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "directions",
+  "info": {
+    "singularName": "direction",
+    "pluralName": "directions",
+    "displayName": "direction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "blocks"
+    }
+  }
+}

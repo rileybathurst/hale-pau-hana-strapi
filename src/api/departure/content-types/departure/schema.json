@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "departures",
+  "info": {
+    "singularName": "departure",
+    "pluralName": "departures",
+    "displayName": "departure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "blocks"
+    }
+  }
+}

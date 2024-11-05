@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "addresses",
+  "info": {
+    "singularName": "address",
+    "pluralName": "addresses",
+    "displayName": "address",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "streetAddress": {
+      "type": "string"
+    },
+    "addressLocality": {
+      "type": "string"
+    },
+    "addressRegion": {
+      "type": "string"
+    },
+    "addressCountry": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "island": {
+      "type": "string"
+    },
+    "building": {
+      "type": "string"
+    },
+    "googleMapLink": {
+      "type": "string"
+    }
+  }
+}

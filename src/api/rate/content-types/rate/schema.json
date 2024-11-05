@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "rates",
+  "info": {
+    "singularName": "rate",
+    "pluralName": "rates",
+    "displayName": "rate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vrbo": {
+      "type": "string"
+    },
+    "taxId": {
+      "type": "string"
+    },
+    "checkin": {
+      "type": "time"
+    },
+    "checkout": {
+      "type": "time"
+    },
+    "taxRate": {
+      "type": "decimal"
+    },
+    "cleaning": {
+      "type": "blocks"
+    },
+    "direct": {
+      "type": "blocks"
+    },
+    "rates": {
+      "type": "blocks"
+    },
+    "peak_season_start": {
+      "type": "date"
+    },
+    "peak_season_end": {
+      "type": "date"
+    },
+    "peak_rate": {
+      "type": "integer"
+    },
+    "off_season_rate": {
+      "type": "integer"
+    }
+  }
+}
